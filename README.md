@@ -1,2 +1,2 @@
-# ln.js
+# ln(js)
 The natural log appender!

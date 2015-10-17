@@ -29,6 +29,7 @@ if(typeof Logger === 'undefined') {
         this.setLevel = function(l) {
             if(typeof priority[l] !== 'undefined') _level = l;
         };
+        this.e = Math.E;
         levels.forEach(function(l, i) {
             self[l] = function(data) {
                 if(typeof console !== 'undefined' && priority[l] <= priority[_level]) {

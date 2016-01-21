@@ -12,6 +12,7 @@ Set log level with a string representation
 logger.setLevel('info');
 ```
 Get the value of Euler's constant
+
     logger.e
 
 
